@@ -2,7 +2,7 @@ export default {
   async fetch(request, env) {
     let url = new URL(request.url);
     if (url.pathname.startsWith('/')) {
-      url.hostname = 'kuangjia.tk'
+      url.hostname = 'bt.k439.link'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
